@@ -10,13 +10,11 @@ node {
     stage("run Demo tests") {
         sh "./gradlew test"
     }
-    post {
-        allure([
-                includeProperties: false,
-                jdk: '',
-                properties: [],
-                reportBuildPolicy: 'ALWAYS',
-                results: [[path: 'build/allure-results']]
-        ])
-    }
+    allure([
+            includeProperties: false,
+            jdk: '',
+            properties: [],
+            reportBuildPolicy: 'ALWAYS',
+            results: [[path: 'build/allure-results']]
+    ])
 }
