@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - BoardTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>BoardTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.trello.html">com.trello</a> &gt; BoardTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">3</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.213s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">canDeleteBoard()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">canGetABoard()</td>
+<td class="success">1.211s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">canUpdateBoard()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Request method:	GET
+Request URI:	https://api.trello.com/1/boards/5e9442e86a23fc6a3e6361e3?key=690dbb2f4fd5ff9e66a824689b42e2a5&amp;token=afd71f113951a43914c17c104c75eacc21fa1428e17ac3c5cd6c5de1b9645b6d
+Proxy:			&lt;none&gt;
+Request params:	key=690dbb2f4fd5ff9e66a824689b42e2a5
+				token=afd71f113951a43914c17c104c75eacc21fa1428e17ac3c5cd6c5de1b9645b6d
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:			&lt;none&gt;
+HTTP/1.1 200 OK
+X-DNS-Prefetch-Control: off
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+Surrogate-Control: no-store
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-XSS-Protection: 1; mode=block
+X-Trello-Version: 1.2069.0
+X-Trello-Environment: Production
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE
+Access-Control-Allow-Headers: Authorization, Accept, Content-Type
+Access-Control-Expose-Headers: x-rate-limit-api-key-interval-ms, x-rate-limit-api-key-max, x-rate-limit-api-key-remaining, x-rate-limit-api-token-interval-ms, x-rate-limit-api-token-max, x-rate-limit-api-token-remaining
+X-RATE-LIMIT-API-KEY-INTERVAL-MS: 10000
+X-RATE-LIMIT-API-KEY-MAX: 300
+X-RATE-LIMIT-API-KEY-REMAINING: 299
+X-RATE-LIMIT-API-TOKEN-INTERVAL-MS: 10000
+X-RATE-LIMIT-API-TOKEN-MAX: 100
+X-RATE-LIMIT-API-TOKEN-REMAINING: 99
+X-RATE-LIMIT-MEMBER-INTERVAL-MS: 10000
+X-RATE-LIMIT-MEMBER-MAX: 200
+X-RATE-LIMIT-MEMBER-REMAINING: 199
+X-Server-Time: 1588011947717
+Content-Type: application/json; charset=utf-8
+Content-Encoding: gzip
+Expires: Mon, 27 Apr 2020 18:25:47 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 27 Apr 2020 18:25:47 GMT
+Content-Length: 802
+Connection: keep-alive
+Vary: Accept-Encoding
+Set-Cookie: dsc=a87a1b1a86ad0932eb68fb72cb0110e1799ec5375e6d62e79dea7dd20a5f520b; Path=/; Expires=Thu, 30 Apr 2020 18:25:47 GMT; Secure
+
+{
+    &quot;id&quot;: &quot;5e9442e86a23fc6a3e6361e3&quot;,
+    &quot;name&quot;: &quot;Vacation Planning&quot;,
+    &quot;desc&quot;: &quot;Hi, new description&quot;,
+    &quot;descData&quot;: {
+        &quot;emoji&quot;: {
+            
+        }
+    },
+    &quot;closed&quot;: false,
+    &quot;idOrganization&quot;: null,
+    &quot;idEnterprise&quot;: null,
+    &quot;pinned&quot;: false,
+    &quot;url&quot;: &quot;https://trello.com/b/lA48n1QL/vacation-planning&quot;,
+    &quot;shortUrl&quot;: &quot;https://trello.com/b/lA48n1QL&quot;,
+    &quot;prefs&quot;: {
+        &quot;permissionLevel&quot;: &quot;private&quot;,
+        &quot;hideVotes&quot;: false,
+        &quot;voting&quot;: &quot;disabled&quot;,
+        &quot;comments&quot;: &quot;members&quot;,
+        &quot;invitations&quot;: &quot;members&quot;,
+        &quot;selfJoin&quot;: true,
+        &quot;cardCovers&quot;: true,
+        &quot;isTemplate&quot;: false,
+        &quot;cardAging&quot;: &quot;regular&quot;,
+        &quot;calendarFeedEnabled&quot;: false,
+        &quot;background&quot;: &quot;5e8cb226ade8ed0c981ddf50&quot;,
+        &quot;backgroundImage&quot;: &quot;https://trello-backgrounds.s3.amazonaws.com/SharedBackground/original/71d66e08956d7ea97b47ff40dd0a2962/photo-1586196576723-c99a4a5fa613&quot;,
+        &quot;backgroundImageScaled&quot;: [
+            {
+                &quot;width&quot;: 67,
+                &quot;height&quot;: 100,
+                &quot;url&quot;: &quot;https://trello-backgrounds.s3.amazonaws.com/SharedBackground/67x100/a46e96cab146e98fed7842e572724377/photo-1586196576723-c99a4a5fa613.jpg&quot;
+            },
+            {
+                &quot;width&quot;: 128,
+                &quot;height&quot;: 192,
+                &quot;url&quot;: &quot;https://trello-backgrounds.s3.amazonaws.com/SharedBackground/128x192/a46e96cab146e98fed7842e572724377/photo-1586196576723-c99a4a5fa613.jpg&quot;
+            },
+            {
+                &quot;width&quot;: 320,
+                &quot;height&quot;: 480,
+                &quot;url&quot;: &quot;https://trello-backgrounds.s3.amazonaws.com/SharedBackground/320x480/a46e96cab146e98fed7842e572724377/photo-1586196576723-c99a4a5fa613.jpg&quot;
+            },
+            {
+                &quot;width&quot;: 640,
+                &quot;height&quot;: 960,
+                &quot;url&quot;: &quot;https://trello-backgrounds.s3.amazonaws.com/SharedBackground/640x960/a46e96cab146e98fed7842e572724377/photo-1586196576723-c99a4a5fa613.jpg&quot;
+            },
+            {
+                &quot;width&quot;: 683,
+                &quot;height&quot;: 1024,
+                &quot;url&quot;: &quot;https://trello-backgrounds.s3.amazonaws.com/SharedBackground/683x1024/a46e96cab146e98fed7842e572724377/photo-1586196576723-c99a4a5fa613.jpg&quot;
+            },
+            {
+                &quot;width&quot;: 853,
+                &quot;height&quot;: 1280,
+                &quot;url&quot;: &quot;https://trello-backgrounds.s3.amazonaws.com/SharedBackground/853x1280/a46e96cab146e98fed7842e572724377/photo-1586196576723-c99a4a5fa613.jpg&quot;
+            },
+            {
+                &quot;width&quot;: 1280,
+                &quot;height&quot;: 1920,
+                &quot;url&quot;: &quot;https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1280x1920/a46e96cab146e98fed7842e572724377/photo-1586196576723-c99a4a5fa613.jpg&quot;
+            },
+            {
+                &quot;width&quot;: 1066,
+                &quot;height&quot;: 1600,
+                &quot;url&quot;: &quot;https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1066x1600/a46e96cab146e98fed7842e572724377/photo-1586196576723-c99a4a5fa613.jpg&quot;
+            },
+            {
+                &quot;width&quot;: 1365,
+                &quot;height&quot;: 2048,
+                &quot;url&quot;: &quot;https://trello-backgrounds.s3.amazonaws.com/SharedBackground/original/71d66e08956d7ea97b47ff40dd0a2962/photo-1586196576723-c99a4a5fa613&quot;
+            }
+        ],
+        &quot;backgroundTile&quot;: false,
+        &quot;backgroundBrightness&quot;: &quot;light&quot;,
+        &quot;backgroundBottomColor&quot;: &quot;#7ea0a7&quot;,
+        &quot;backgroundTopColor&quot;: &quot;#cfd8da&quot;,
+        &quot;canBePublic&quot;: true,
+        &quot;canBeEnterprise&quot;: true,
+        &quot;canBeOrg&quot;: true,
+        &quot;canBePrivate&quot;: true,
+        &quot;canInvite&quot;: true
+    },
+    &quot;labelNames&quot;: {
+        &quot;green&quot;: &quot;&quot;,
+        &quot;yellow&quot;: &quot;&quot;,
+        &quot;orange&quot;: &quot;&quot;,
+        &quot;red&quot;: &quot;&quot;,
+        &quot;purple&quot;: &quot;&quot;,
+        &quot;blue&quot;: &quot;&quot;,
+        &quot;sky&quot;: &quot;&quot;,
+        &quot;lime&quot;: &quot;&quot;,
+        &quot;pink&quot;: &quot;&quot;,
+        &quot;black&quot;: &quot;&quot;
+    }
+}
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.3</a> at Apr 27, 2020 9:25:48 PM</p>
+</div>
+</div>
+</body>
+</html>

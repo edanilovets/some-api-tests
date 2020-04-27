@@ -1,0 +1,1 @@
+{"uuid":"c05d5a89-b10c-475d-b603-47fb5d985d83","historyId":"c2a6c59dabd2a05624311b53c5c81c94","labels":[{"name":"suite","value":"com.trello.BoardTests"},{"name":"package","value":"com.trello.BoardTests"}],"name":"canDeleteBoard()","status":"passed","stage":"finished","start":1588011948514,"stop":1588011948515}
